@@ -10,8 +10,17 @@
 <%
 =end%>
     <%= csrf_meta_tags %>
+    <%
+=begin%>
+ <%= render 'layouts/shim' %> 
+<%
+=end%>
   </head>
   <body>
-    <%= yield %>
+    <%= render 'layouts/header' %>
+    <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>
