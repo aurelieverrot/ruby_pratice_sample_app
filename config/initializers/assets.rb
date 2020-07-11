@@ -12,3 +12,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+
+# Added to use Bootstrap elements that need JS to work, without this it raises an error:
+# "The asset "application.js" is not present in the asset pipeline."
+Rails.application.config.assets.precompile += %w( application.js )
