@@ -15,3 +15,9 @@ aurelie:
   name: Aurelie Verrot
   email: lili@lili.com
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
