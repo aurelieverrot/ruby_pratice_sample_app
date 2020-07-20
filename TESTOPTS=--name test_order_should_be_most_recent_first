@@ -1,0 +1,288 @@
+Run options: --seed 64735
+
+# Running:
+
+E
+
+Error:
+MicropostTest#test_should_be_valid:
+SyntaxError: /Users/aurelie/Code/ruby-projects/workspace/sample_app/app/models/user.rb:2: syntax error, unexpected ':', expecting end
+  has_many: microposts
+          ^
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/zeitwerk-2.3.1/lib/zeitwerk/kernel.rb:27:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `const_get'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `block in constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `inject'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:325:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/core_ext/string/inflections.rb:79:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:461:in `block in []'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `fetch'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `[]'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:575:in `block in read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:545:in `create_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:205:in `load_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:118:in `setup_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:8:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:96:in `block (3 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:195:in `capture_exceptions'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:95:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:272:in `time_it'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:94:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:211:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:93:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:1029:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:341:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:328:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:354:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:326:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.2/lib/rails/test_unit/line_filtering.rb:10:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `block in __run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `__run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:141:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:68:in `block in autorun'
+
+rails test test/models/micropost_test.rb:10
+
+E
+
+Error:
+MicropostTest#test_content_should_be_present:
+SyntaxError: /Users/aurelie/Code/ruby-projects/workspace/sample_app/app/models/user.rb:2: syntax error, unexpected ':', expecting end
+  has_many: microposts
+          ^
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/zeitwerk-2.3.1/lib/zeitwerk/kernel.rb:27:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `const_get'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `block in constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `inject'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:325:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/core_ext/string/inflections.rb:79:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:461:in `block in []'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `fetch'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `[]'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:575:in `block in read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:545:in `create_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:205:in `load_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:118:in `setup_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:8:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:96:in `block (3 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:195:in `capture_exceptions'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:95:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:272:in `time_it'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:94:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:211:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:93:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:1029:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:341:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:328:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:354:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:326:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.2/lib/rails/test_unit/line_filtering.rb:10:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `block in __run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `__run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:141:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:68:in `block in autorun'
+
+rails test test/models/micropost_test.rb:19
+
+E
+
+Error:
+MicropostTest#test_content_should_be_at_most_140_characters:
+SyntaxError: /Users/aurelie/Code/ruby-projects/workspace/sample_app/app/models/user.rb:2: syntax error, unexpected ':', expecting end
+  has_many: microposts
+          ^
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/zeitwerk-2.3.1/lib/zeitwerk/kernel.rb:27:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `const_get'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `block in constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `inject'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:325:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/core_ext/string/inflections.rb:79:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:461:in `block in []'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `fetch'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `[]'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:575:in `block in read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:545:in `create_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:205:in `load_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:118:in `setup_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:8:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:96:in `block (3 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:195:in `capture_exceptions'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:95:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:272:in `time_it'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:94:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:211:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:93:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:1029:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:341:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:328:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:354:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:326:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.2/lib/rails/test_unit/line_filtering.rb:10:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `block in __run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `__run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:141:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:68:in `block in autorun'
+
+rails test test/models/micropost_test.rb:24
+
+E
+
+Error:
+MicropostTest#test_order_should_be_most_recent_first:
+SyntaxError: /Users/aurelie/Code/ruby-projects/workspace/sample_app/app/models/user.rb:2: syntax error, unexpected ':', expecting end
+  has_many: microposts
+          ^
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/zeitwerk-2.3.1/lib/zeitwerk/kernel.rb:27:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `const_get'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `block in constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `inject'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:325:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/core_ext/string/inflections.rb:79:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:461:in `block in []'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `fetch'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `[]'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:575:in `block in read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:545:in `create_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:205:in `load_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:118:in `setup_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:8:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:96:in `block (3 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:195:in `capture_exceptions'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:95:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:272:in `time_it'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:94:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:211:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:93:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:1029:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:341:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:328:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:354:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:326:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.2/lib/rails/test_unit/line_filtering.rb:10:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `block in __run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `__run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:141:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:68:in `block in autorun'
+
+rails test test/models/micropost_test.rb:29
+
+E
+
+Error:
+MicropostTest#test_user_id_should_be_present:
+SyntaxError: /Users/aurelie/Code/ruby-projects/workspace/sample_app/app/models/user.rb:2: syntax error, unexpected ':', expecting end
+  has_many: microposts
+          ^
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/zeitwerk-2.3.1/lib/zeitwerk/kernel.rb:27:in `require'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `const_get'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:282:in `block in constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `inject'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:280:in `constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/inflector/methods.rb:325:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/core_ext/string/inflections.rb:79:in `safe_constantize'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:461:in `block in []'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `fetch'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:460:in `[]'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:575:in `block in read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:574:in `read_and_insert'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/fixtures.rb:545:in `create_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:205:in `load_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:118:in `setup_fixtures'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.3.2/lib/active_record/test_fixtures.rb:8:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.3.2/lib/active_support/testing/setup_and_teardown.rb:40:in `before_setup'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:96:in `block (3 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:195:in `capture_exceptions'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:95:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:272:in `time_it'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:94:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:211:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest/test.rb:93:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:1029:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:341:in `run_one_method'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:328:in `block (2 levels) in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `each'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:327:in `block in run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:367:in `on_signal'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:354:in `with_info_handler'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:326:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/railties-6.0.3.2/lib/rails/test_unit/line_filtering.rb:10:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `block in __run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `map'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:164:in `__run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:141:in `run'
+    /Users/aurelie/.rvm/gems/ruby-2.6.3/gems/minitest-5.14.1/lib/minitest.rb:68:in `block in autorun'
+
+rails test test/models/micropost_test.rb:14
+
+
+
+Finished in 0.010372s, 482.0671 runs/s, 0.0000 assertions/s.
+5 runs, 0 assertions, 0 failures, 5 errors, 0 skips

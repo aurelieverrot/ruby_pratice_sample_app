@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -76,6 +76,7 @@ class User < ApplicationRecord
 
     # Converts email to all lower-case
     def downcase_email
+
       self.email = email.downcase
     end
 
