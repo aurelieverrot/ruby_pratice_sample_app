@@ -59,7 +59,7 @@ end
 
 group :production do
   # Use Puma as the app server
-  gem 'puma', '~> 4.1'
+  gem 'puma', '~> 4.3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
